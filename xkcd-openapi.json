@@ -1,0 +1,91 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "XKCD",
+        "description": "Webcomic of romance, sarcasm, math, and language.",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsxkcd.com\/"
+    ],
+    "paths": {
+        "\/info.0.json": {
+            "get": {
+                "summary": "",
+                "description": "Fetch current comic and metadata.\n",
+                "operationId": "GetLatestComic",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/{comicId}\/info.0.json": {
+            "get": {
+                "summary": "",
+                "description": "Fetch comics and metadata  by comic id.\n",
+                "operationId": "GetComic",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "comicId",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "comic": {
+                "type": "object",
+                "properties": {
+                    "alt": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "day": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "img": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "link": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "month": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "news": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "num": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "safe_title": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "title": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "transcript": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "year": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            }
+        }
+    }
+}
