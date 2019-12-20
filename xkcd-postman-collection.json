@@ -1,0 +1,67 @@
+{
+    "id": "b11e103ebedc95cdade4e115ad21ee0a",
+    "name": "XKCD",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "d60671cffdc446c879da3807afa7af8d",
+            "name": "",
+            "url": "httpsxkcd.com\/\/info.0.json",
+            "description": "Fetch current comic and metadata.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b11e103ebedc95cdade4e115ad21ee0a",
+            "rawModeData": ""
+        },
+        {
+            "id": "ece6d7d4554b84cde31b152cb62d066a",
+            "name": "",
+            "url": "httpsxkcd.com\/\/{comicId}\/info.0.json",
+            "description": "Fetch comics and metadata  by comic id.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "comicId",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b11e103ebedc95cdade4e115ad21ee0a",
+            "rawModeData": ""
+        }
+    ]
+}
