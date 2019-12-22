@@ -1,5 +1,5 @@
 {
-    "id": "b11e103ebedc95cdade4e115ad21ee0a",
+    "id": "185f450bc24bc6055c3713e9314f47bb",
     "name": "XKCD",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "d60671cffdc446c879da3807afa7af8d",
+            "id": "6a02f9a3184c84c4b2928b2a1ca29f0f",
             "name": "",
             "url": "httpsxkcd.com\/\/info.0.json",
             "description": "Fetch current comic and metadata.\n",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b11e103ebedc95cdade4e115ad21ee0a",
+            "collectionId": "185f450bc24bc6055c3713e9314f47bb",
             "rawModeData": ""
         },
         {
-            "id": "ece6d7d4554b84cde31b152cb62d066a",
+            "id": "02a6bca2983ba960019ff2fc22bbe06e",
             "name": "",
             "url": "httpsxkcd.com\/\/{comicId}\/info.0.json",
             "description": "Fetch comics and metadata  by comic id.\n",
@@ -60,7 +60,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b11e103ebedc95cdade4e115ad21ee0a",
+            "collectionId": "185f450bc24bc6055c3713e9314f47bb",
             "rawModeData": ""
         }
     ]
