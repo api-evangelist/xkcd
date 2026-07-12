@@ -23,6 +23,8 @@ apis:
       - type: Documentation
         url: https://xkcd.com/json.html
 common:
+  - type: DomainSecurity
+    url: security/xkcd-domain-security.yml
   - type: Website
     url: https://xkcd.com/json.html
   - type: PublicAPIsListing
