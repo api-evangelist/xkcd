@@ -14,7 +14,7 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/xkcd.png
 name: xkcd
 description: "Retrieve xkcd comics as JSON"
 url: https://xkcd.com/json.html
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-05-28'
 modified: '2026-05-28'
 x-source: public-apis/public-apis
