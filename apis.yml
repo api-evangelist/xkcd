@@ -33,13 +33,12 @@ x-category: "Games & Comics"
 x-tier: 3
 x-tier-reason: bulk-registered-from-public-apis
 tags:
-  - Games And Comics
   - Public APIs
+  - Comics
 apis:
   - name: xkcd
     description: "Retrieve xkcd comics as JSON"
     humanURL: https://xkcd.com/json.html
-    baseURL: https://xkcd.com/json.html
     tags:
       - Games And Comics
     properties:
@@ -55,3 +54,5 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-tags-removed:
+- Games And Comics
