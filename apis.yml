@@ -39,7 +39,8 @@ apis:
   - name: xkcd
     description: "Retrieve xkcd comics as JSON"
     humanURL: https://xkcd.com/json.html
-    tags:
+    tags: []
+    tags_raw:
       - Games And Comics
     properties:
       - type: Documentation
